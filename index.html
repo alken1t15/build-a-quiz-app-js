@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="start_btn"><button>Start Quiz</button></div>
+<div class="info_box">
+  <div class="info-title"><span>Некоторые правила этой викторины</span></div>
+  <div class="info-list">
+    <div class="info">1. У вас будет только <span>15 секунд</span> на каждый вопрос.</div>
+    <div class="info">2. После того как вы выберете ответ, его нельзя будет отменить.</div>
+    <div class="info">3. Вы не сможете выбрать какой-либо вариант, как только время истечет.</div>
+    <div class="info">4. Вы не можете выйти из викторины во время игры.</div>
+    <div class="info">5. Вы получите баллы на основе правильных ответов.</div>
+  </div>
+  <div class="buttons">
+    <button class="quit">Выйти</button>
+    <button class="restart">Продолжить</button>
+  </div>
+</div>
+<div class="quiz_box">
+  <header>
+    <div class="title">Awesome Quiz Application</div>
+    <div class="timer">
+      <div class="time_left_txt">Время</div>
+      <div class="timer_sec">15</div>
+    </div>
+    <div class="time_line"></div>
+  </header>
+  <section>
+    <div class="que_text">
+    </div>
+    <div class="option_list">
+    </div>
+  </section>
+  <footer>
+    <div class="total_que">
+    </div>
+    <button class="next_btn">Next Que</button>
+  </footer>
+</div>
+<div class="result_box">
+  <div class="icon">
+    <i class="fas fa-crown"></i>
+  </div>
+  <div class="complete_text">You've completed the Quiz!</div>
+  <div class="score_text">
+  </div>
+  <div class="buttons">
+    <button class="restart">Replay Quiz</button>
+    <button class="quit">Quit Quiz</button>
+  </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
